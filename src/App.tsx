@@ -1,10 +1,11 @@
+import Hero from "./pages/hero";
 
 function App() {
   return (
     <div>
-      <h1>React TypeScript Webpack Starter Template</h1>
+      <Hero />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
