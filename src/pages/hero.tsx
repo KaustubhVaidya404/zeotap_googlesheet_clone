@@ -1,9 +1,10 @@
 import Grid from "../components/grid";
+import NavBar from "../components/navbar";
 
 function Hero() {
   return (
-    <div className="bg-amber-700">
-      <h1 className="text-4xl text-center">NavBar</h1>
+    <div>
+      <NavBar />
       <Grid />
     </div>
   );
