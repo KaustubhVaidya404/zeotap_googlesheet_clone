@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="bg-amber-700">
       <h1 className="text-4xl text-center">NavBar</h1>
-        <Grid />
+      <Grid />
     </div>
   );
 }

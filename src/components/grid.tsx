@@ -37,6 +37,8 @@ function Grid() {
         licenseKey="non-commercial-and-evaluation"
         height="100vh"
         width="100vw"
+        rowHeights="10px"
+        colWidths="100px"
         // Add more rows when scrolling to the bottom
         afterScrollVertically={() => {
           const lastRow = data.length - 1;
